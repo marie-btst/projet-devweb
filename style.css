@@ -1,0 +1,135 @@
+/* Style global */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #dbdbdb;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* En-tête et navigation */
+.site-header {
+  background-color: #b22222;
+  color: white;
+  padding: 1rem 0;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-list a:hover {
+  text-decoration: underline;
+}
+
+/* Section principale */
+main {
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  background: url("images/pizza-bg.jpg") center/cover no-repeat;
+  color: white;
+  padding: 4rem 1rem;
+  background-color: #b22222;
+  font-size: 1.3rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Carte des pizzas */
+.menu {
+  margin-top: 3rem;
+}
+
+.menu h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #b22222;
+  text-decoration: underline;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.menu-item {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 1rem;
+  text-align: center;
+}
+
+.menu-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.menu-item h3 {
+  color: #b22222;
+  margin: 0.8rem 0 0.3rem;
+}
+
+/* Horaires & contact */
+#infos {
+  margin-top: 3rem;
+  border-top: 3px solid #b22222;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+#infos h2 {
+  color: #b22222;
+
+  text-decoration: underline;
+}
+
+/* Avis clients */
+#avis {
+  margin-top: 3rem;
+  border-top: 3px solid #b22222;
+  padding-top: 2rem;
+}
+
+#avis h2 {
+  text-align: center;
+  color: #b22222;
+  text-decoration: underline;
+}
+
+/* Éditeur du site */
+#editeur {
+  margin-top: 3rem;
+  padding: 2rem;
+  border-top: 3px solid #b22222;
+  border-radius: 6px;
+  text-align: center;
+}
+
+#editeur h2 {
+  color: #b22222;
+  text-decoration: underline;
+}
