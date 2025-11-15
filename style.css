@@ -107,6 +107,13 @@ main {
   padding-bottom: 1rem;
 }
 
+.menu h3 {
+  text-align: center;
+  color: var(--color-primary);
+  font-size: 1.5rem;
+  padding-bottom: 25px;
+}
+
 .menu-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -318,9 +325,20 @@ a:focus-visible {
   border-radius: 4px;
 }
 
-#menu h3 {
-  text-align: center;
-  color: #c41e3a;
-  font-size: 1.5rem;
-  padding-bottom: 25px;
+/* Carte */
+.carte-container {
+  margin-top: 2rem;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.carte-container iframe {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .carte-container iframe {
+    height: 300px !important;
+  }
 }
